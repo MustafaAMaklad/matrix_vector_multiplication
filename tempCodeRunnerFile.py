@@ -1,0 +1,1 @@
+print(f"Elapsed {round((end - start) * 10 ** 6, 2)} micro secs.")
