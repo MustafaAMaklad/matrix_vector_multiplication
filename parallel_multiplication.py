@@ -22,10 +22,10 @@ m = [
 def dot_product(m, v):
     """ performs dot product of two vectors and returns result
     """
-    t = 0
+    r = 0
     for i in range(len(v)):
-        t += m[i] * v[i]
-    return t
+        r += m[i] * v[i]
+    return r
 
 def parallel_multiplication(m, v):
     """to performs parallel multiplication and returns result
